@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: #F6F6F6;
+}
+
+.titulo-destaque {
+    color: #d0a1e6;
+
+}
+
+.apresentacao {
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+ 
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+;
+}
+
+.apresentacao__conteudo__paragrafo {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content:space-between ;
+}
+
+.apresentacao__links__botao {
+background-color: #d0a1e6;
+width: 280px;
+text-align: center;
+border-radius: 16px;
+font-size: 24px;
+font-weight: 600;
+padding: 21.5px 0;
+text-decoration: none;
+color: black;
+font-family: "Montserrat", sans-serif;
+
+}
